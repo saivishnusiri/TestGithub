@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>bootstrap documentation with grid</title>
+	<meta name="description" content="dootstrap document">
+	<!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+      <!-- optional theme-->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+         <style>
+           .header{
+            background-color: silver;
+            color: olive;
+             text-decoration: underline;
+            
+        }
+        .col-md-9{
+        	background-color: red;
+        }
+        .col-md-3{
+        	background-color: teal;
+        }
+
+       </style> 
+      </head>
+      <body>
+
+           <header>
+            <div class="header">
+                  <h1 class="well">Bootstrap With Nested Columns & change the order of columns</h1>
+            </div>
+
+         </header>  
+
+            <div class="container">
+            	<div class="row">
+                    <div class="col-md-3">First Column
+                     	<div class="row">
+                      		<div class="col-md-6">
+                      			<div class="well">First Nested Column</div>
+                      	     </div>
+                      	      <div class="col-md-6">
+                      			<div class="well">Second Nested Column</div>
+
+                      	     </div>
+                        </div>
+                    </div> 
+                        
+                       <div class="col-md-9">Second Column
+                            <div class="row">
+                      		<div class="col-md-6">
+                      			<div class="well"> Second  First Nested Column</div>
+                      	     </div>
+                      	      <div class="col-md-6">
+                      			<div class="well">Second Second Nested Column</div>
+                      	     </div>
+                        </div>
+                    </div> 
+
+            	</div>
+            </div>
+
+           <div class="container"> 
+           	  <div class="row">
+           	  	  <div class="col-sm-6 col-sm-push-6">
+           	  	  	<div class="well">First column:change the oder of column</div>
+           	  	 </div>
+           	  	 <div class="col-sm-6 col-sm-pull-6">
+           	  	  	<div class="well">second column:change the oder of column</div>
+           	  	 </div>
+           	  	</div>  	
+           </div>
+
+     <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</body>
+</html>

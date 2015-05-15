@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>bootstrap document</title>
+	<meta name="description" content="dootstrap document">
+	<!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+      <!-- optional theme-->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+
+  <style>
+  body{
+    padding:40px;
+    background-color: "red";
+     }
+   h1{
+      color: "red"
+    } 
+   div.container{
+    background-color: "red";
+   }
+   #my-navbar{
+
+   }
+    .container h2{
+        color:blue;
+        background-color: teal;
+    }
+      .tab-content{
+          color:green;
+      }
+  
+
+ </style> 
+</head>
+<body data-spy="scroll" data-target="#my-navbar">
+    <!--navbar-->
+     <nav class="navbar navbar-inverse navbar-fixed-top " id="my-navbar">
+     	 <div class="container">
+     	 	<div class="navbar-header">
+     	 		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+     	 			  <span class="icon-bar"></span>
+     	 			  <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                </button>  
+                  <a href="#" class="navbar-brand">BootStrap</a>
+
+
+          </div><!-- nav header-->
+           <div class="collapse navbar-collapse" id="navbar-collapse">
+            <a href="" class="btn btn-info navbar-btn navbar-right">Download App</a>
+               <ul class="nav navbar-nav">
+                  <li><a href="#feedback">FeedBack</a>
+                  <li><a href="#gallery"> Gallery</a>
+                  <li><a href="#features"> Features</a>
+                  <li><a href="#contact">Contact</a>
+                  <li><a href="#FAQ">FAQ</a>
+
+                </ul>
+            </div>        
+
+
+                  </div><!--end of container-->
+
+    </nav>  <!-- end of NavBar--> 
+         <div class="jumbotron">
+           <div class="container text-center">
+               <h1>BootStrap</h1>
+               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer </p>
+
+         <div class="btn.group">
+             <a href="" class="btn btn-lg btn-warning">Download App</a>
+              <a href="" class="btn btn-lg btn-info">Visit Store</a>
+              <a href="" class="btn btn-lg btn-primary">Check</a>
+
+
+            </div> <!--end of container-->
+
+        </div>  <!-- end of jumbotron-->
+             <!--tabs Navigation-->
+             <div class= "container">
+                 <div class="row">
+                     <div class="col-md-4">
+                         <h2>Tab</h2>
+                         <!--tab sections-->
+                     
+                     <ul class="nav nav-tabs">
+                         <li class="active" ><a href="#tab1" data-toggle="tab">section1</a></li>
+                         <li> <a href="#tab2" data-toggle="tab">section2</a></li>
+                         <li><a href="#tab3" data-toggle="tab">section3</a></li>
+                     </ul>
+                      <div class="tab-content">
+                          <div class="tab-pane active " id="tab1">
+                              
+                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
+                              
+                          </div>
+                           
+                          <div class="tab-pane " id="tab2">
+                              
+                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer this is the second tad id to section2 
+                              
+                          </div>
+                                
+                          <div class="tab-pane " id="tab3">
+                              
+                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer ----
+                              
+                          </div>
+                     </div>
+                           
+                  
+                         
+                     </div>
+                     </div>
+                 </div>
+            
+              
+          <!--Images Gallery-->
+             <div class="container">
+               <section>
+                 <div class="page-header" id="gallery">
+                   <h2>Gallery<small>Check out for the gallery</small></h2>
+                  </div> 
+                      <div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                             <li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+                             <li data-target="#screenshot-carousel" data-slide-to="1"> </li>
+                             <li data-target="#screenshot-carousel" data-slide-to="2"></li>
+                             
+                          </ol>
+                          <div class="carousel-inner">
+                               <div class="item active">
+                                 <img src="C:\Users\Public\Pictures\Sample Pictures\Chrysanthemum.jpg" alt="flower" width="600" height="600"/>
+                                 <div class="carousel-caption">
+                                     <h3>Chrysanthemun flower</h3>
+                                     <p>this is the flower name</p>
+                                </div> 
+                              </div>  
+                                <div class="item">
+                                <img src="C:\Users\Public\Pictures\Sample Pictures\Hydrangeas.jpg" alt="flower" width="600" height="600"/>
+                                <div class="carousel-caption">
+                                     <h3>Hydrangeas flower</h3>
+                                     <p>this is the flower name</p>
+                                </div> 
+                              </div>
+                                <div class="item">
+                                <img src="C:\Users\Public\Pictures\Sample Pictures\Tulips.jpg" alt ="flower2" width="600" height="600"/>
+                                <div class="carousel-caption">
+                                     <h3>Tulip flower </h3>
+                                     <p>this is the flower name</p>
+                                </div> 
+                              </div>
+                          
+                        </div> <!--end of carsouel ineer-->
+
+                  <a href="#screenshot-carousel" class="left carousel-control" data-slide="prev">
+                      <span class="
+                         glyphicon glyphicon-chevron-left"></span>
+                  </a>       
+                  <a href="#screenshot-carousel" class="right carousel-control" data-slide="next">
+                     <span class="
+                       glyphicon glyphicon-chevron-right"></span>
+                  </a>     
+               </div><!--end of carousel-->     
+
+
+                 </section>
+             </div>  
+              <div class="container">
+                 <section>
+                   <div class="page-header" id="FAQ">
+                       <h2>FAQ:<small>Engaging with Consumers.</small></h2>
+                   </div><!--end of pageheader-->
+               <div class="panel-group" id="accordin">
+                     <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                 <a href="#collapse-1" data-toggle="collapse" data parent="accordin">
+                                  Question one?
+                                </a>
+                            </div><!--end of panel title-->
+                        <div id="collapse-1" class="panel-collapse collapse in ">
+                              <div class="panel-body" >
+                                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going  
+                              </div>
+                        </div><!-- end panel collapse-->
+                      </div>
+                    </div>   
+                     <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                 <a href="#collapse-2" data-toggle="collapse" data parent="accordin">
+                                  Question two?
+                                </a>
+                            </div><!--end of panel title-->
+                        <div id="collapse-2" class="panel-collapse collapse  ">
+                              <div class="panel-body" >
+                                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going  
+                              </div>
+                        </div><!-- end panel collapse-->
+                      </div>
+                    </div>
+
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                 <a href="#collapse-3" data-toggle="collapse" data parent="accordin">
+                                  Question three?
+                                </a>
+                            </div><!--end of panel title-->
+                        <div id="collapse-3" class="panel-collapse collapse  ">
+                              <div class="panel-body" >
+                                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going  
+                              </div>
+                        </div><!-- end panel collapse-->
+                      </div>
+                    </div>    
+                  </div><!--end of panel group-->
+               
+
+                </section>
+
+
+             </div> <! end of page container-->      
+
+              <div class="container">
+             <section>
+                <div class="page-header" id="contact">
+                    <h2>Contact Us:<small>Contact Us for more info.</small></h2>
+                </div><!--end of page header-->
+
+                    <div class="row">
+                        <div class="col-lg-4">
+                           <p>Send a message from below conatct info</p>
+
+
+                           <address>
+                              <strong>BootStrap Ltd</strong></br>
+                               23232,fgfgssdf</br>
+                               apt#9</br>
+                               USA
+                           </address>
+                        </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <form action="" class="form-horizontal">
+                                <div class="form-group">
+                                   <label for="user-name" class="col-lg-2 control-label">Name</label>
+
+                                    <div class="col-lg-10">
+                                         <input type="text" class="form-control" id="user-name" placeholder="Enter Your Name">  
+
+                                   </div>
+                                </div>  <!--end of formgroup-->
+                                 <div class="form-group">
+                                   <label for="user-email" class="col-lg-2 control-label">Email</label>
+                                     <div class="col-lg-10">
+                                         <input type="text" class="form-control" id="user-email" placeholder="Enter Your Email">  
+
+                                   </div>
+                                </div>  <!--end of formgroup-->
+                                 <div class="form-group">
+                                   <label for="user-phone no" class="col-lg-2 control-label">Phone Number</label>
+
+                                    <div class="col-lg-10">
+                                         <input type="text" class="form-control" id="user-phone no" placeholder="Enter Your phone number">  
+
+                                   </div>
+                                </div>  <!--end of formgroup-->
+                                 <div class="form-group">
+                                   <label for="user-message" class="col-lg-2 control-label">Any text Message</label>
+
+                                    <div class="col-lg-10">
+                                         <textarea name="user-message" id="user-message" class="form-control"
+                                         cols="20" rows="10" palceholder="Enter Yoor Message"></textarea>
+                                   </div>
+                                </div>  <!--end of formgroup-->
+                                   <div class="form-group">
+                                    <div class="col-lg-10 col-lg-offset-2">
+                                       <button type="submit" class="btn btn-primary">Submit</button>
+                                     </div>  
+                                  </div>
+
+
+                            </form>
+                        </div>
+
+                    </div><! End of row-->
+ 
+
+              </section>
+           </div>
+
+             <footer>
+              <hr>
+
+                     <ul class="list-inline">
+                                <li><a href="http://www.Twitter.com">Twitter</a><li>
+                                 <li><a href="http://www.Facebook.com"> Fcacebook</a></li>
+                                 <li><a href="http://www.youtube.com">YouTube</a><li>
+                              </ul>  
+
+                              <p>&copy:Copy rights @ 2015</p>
+                       
+
+                  
+                </footer>
+
+     <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+ 
+                    
